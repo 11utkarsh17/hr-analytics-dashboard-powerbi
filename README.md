@@ -28,12 +28,16 @@ An HR analytics dashboard built in Power BI on a public HR dataset. It tracks th
 4. Designed dashboard pages for weekly and monthly HR reporting
 
 ## Key insights
-- [Add 2-3 real findings, e.g. which department has the highest attrition]
+- Dataset covers 1,470 employees: 60% male (882) and 40% female (588)
+- R&D makes up about 65% of headcount, Sales about 30% and HR about 4%
+- About 70% of employees travel rarely, while about 1 in 5 travels frequently
+- Average age is 36; average annual income is roughly 78K per employee
+
 
 ## Screenshots
 
+<img width="659" height="369" alt="IBM HR 1" src="https://github.com/user-attachments/assets/400e184b-0991-4f84-9d6c-98f55b1056a9" />
 
-![Dashboard](images/dashboard.png)
 
 
 
