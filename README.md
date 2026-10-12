@@ -1,52 +1,57 @@
-# HR Analytics Dashboard (Power BI)
+🧠 IBM HR Analytics & Attrition Dashboard
+1. Project Title / Headline
+📊 IBM HR Analytics Dashboard (Power BI) An interactive and insightful HR analytics dashboard built using the IBM HR dataset from Kaggle. It analyzes key workforce metrics such as attrition, job satisfaction, performance, and demographics—helping organizations make data-driven decisions to improve employee retention and productivity.
 
-An HR analytics dashboard built in Power BI on a public HR dataset. It tracks the core metrics HR teams report on weekly and monthly.
+2. Short Description / Purpose
+The IBM HR Dashboard provides a complete view of employee behavior, performance, and satisfaction levels across various departments. It helps HR professionals identify critical trends related to attrition, age group analysis, salary structure, and work-life balance, enabling proactive workforce management.
 
-## Dashboard link
-[Add your Power BI / Tableau Public link here]
+This project demonstrates end-to-end analytics—from data cleaning and preprocessing to visualization and KPI creation using Power BI.
 
-## Metrics covered
-- Attrition rate
-- Headcount
-- Hiring TAT and recruitment funnel
-- Absenteeism
-- Cost per hire
+3. Tech Stack
+The dashboard was built using the following tools and technologies:
+• 📊 Power BI Desktop – Data visualization and dashboard creation.
+• 🐍 Python (Pandas, NumPy, Matplotlib, Seaborn) – Data cleaning, transformation, and exploratory data analysis (EDA).
+• 📂 Power Query – In-built Power BI data transformation.
+• 🧮 DAX (Data Analysis Expressions) – For creating calculated columns, KPIs, and measures.
+• 📁 File Format – .pbix (Power BI), .csv (dataset), .png (dashboard preview).
 
-## Tools used
-- **Power BI:** data model, DAX measures, dashboard
-- **Excel (Power Query):** cleaning and transformation
-- **SQL:** querying and validating the data
-- **Python (Pandas):** data cleaning and checks
+4. Data Source
+Source: Kaggle – IBM HR Analytics Dataset
 
-## Dataset
-[Name of the public dataset, e.g. IBM HR Analytics, and the source link]
+The dataset includes:
 
-## Approach
-1. Cleaned the raw data (missing values, duplicates, data types) using Power Query and Python
-2. Validated the data with SQL queries to check integrity
-3. Built the data model and DAX measures in Power BI
-4. Designed dashboard pages for weekly and monthly HR reporting
+Employee demographics (age, gender, marital status).
+Job details (role, department, job level).
+Compensation data (monthly income, hourly rate, daily rate).
+Work environment satisfaction and job involvement.
+Attrition status and reasons for employee turnover.
+5. Features / Highlights
+• Problem Statement
+Employee attrition is a major challenge faced by organizations. Understanding the key factors that drive employees to leave can help businesses reduce turnover and enhance workforce stability.
 
-## Key insights
-- Dataset covers 1,470 employees: 60% male (882) and 40% female (588)
-- R&D makes up about 65% of headcount, Sales about 30% and HR about 4%
-- About 70% of employees travel rarely, while about 1 in 5 travels frequently
-- Average age is 36; average annual income is roughly 78K per employee
+• Goal of the Dashboard
+To create an interactive Power BI dashboard that:
 
+Identifies key factors influencing employee attrition.
+Analyzes job satisfaction, income distribution, and performance.
+Tracks department-wise attrition and demographics.
+Provides visual insights for strategic HR decision-making.
+• Walkthrough of Key Visuals
+KPI Cards: Total Employees, Attrition Count, Attrition Rate, Average Age, and Job Satisfaction Score.
 
-## Screenshots
+Charts & Graphs:
 
-<img width="659" height="369" alt="IBM HR 1" src="https://github.com/user-attachments/assets/400e184b-0991-4f84-9d6c-98f55b1056a9" />
+Attrition by Department & Job Role.
+Age vs. Attrition Trends.
+Salary Distribution by Job Level.
+Education Field vs. Attrition Rate.
+Gender & Marital Status Breakdown.
+Filters: Department, Gender, Education Field, Job Role, and Marital Status.
 
-
-
-
-## Files
-- `data/`: dataset (or a link to it)
-- `sql/`: SQL queries
-- `notebooks/`: Python cleaning scripts
-- `dashboard.pbix`: Power BI file
-- `images/`: dashboard screenshots
-
-## Author
-Utkarsh Kumar | [LinkedIn](https://linkedin.com/in/utkarsh-kumar-9994b8274)
+• Business Impact & Insights
+Employee Retention: Identify high-risk segments prone to attrition.
+HR Strategy: Support data-backed decision-making in recruitment and retention.
+Performance Trends: Recognize factors impacting job satisfaction.
+Workforce Optimization: Improve productivity and engagement using insights.
+6. Screenshots / Demos
+Dashboard Preview Dashboard Preview
